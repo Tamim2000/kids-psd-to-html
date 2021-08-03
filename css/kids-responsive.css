@@ -1,0 +1,121 @@
+/****Most common  Responsive device screen Sizes  width
+1366px,
+1280px,
+1024px,
+768px,
+414px,
+375px,
+360px,
+***/
+@media only screen and (max-width: 1280px) {
+         /* this size device is already responsive with good looking*/
+  }
+  @media only screen and (max-width: 1024px) {
+    .banner-content .title {
+        left: 90px;
+    }
+    section.apple {
+        margin-top: -80px;
+    }
+    .ready .ready-text {
+        margin-top: 240px;
+        margin-left: 70px;
+    }
+    .limit-content h2 {
+        font-size: 32px;
+        top: 130px;
+        right: 50px;
+    }
+ 
+  }
+  @media only screen and (max-width: 768px) {
+      header{
+          width: 100%;
+        }
+          section {
+            width: 100%;
+      }
+      nav.navbar.navbar-expand-lg {
+        background:#E4242E;
+    }
+      section.apple {
+        width: 100%;
+    }
+    .banner-content img {
+        margin-top: 100px;
+    }
+    footer{
+        background-size: cover;
+    }
+    .ready .ready-text {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .banner-content .title {
+        left: 70px;
+        top: 90px;
+    }
+    .banner-content h2 {
+        font-size: 33px;
+        margin-bottom: 0px;
+    }
+    .banner-content span {
+        font-size: 20px;
+       margin-top: 0;
+    }
+    .banner-content{
+        padding: 0;
+    }
+    section.ready {
+        margin-top: 50px;
+    }
+    .who-we-content {
+        left: -25px;
+    }
+    .limit-content h2 {
+        font-size: 32px;
+        top: 87px;
+        right: -21px;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .container{
+        width: 100%;
+    }
+    .ready-text {
+        margin-left: 30px;
+    }
+    .who-we .img {
+        margin-top: 220px;
+    }
+    .who-we-content {
+        top: -200px;
+        
+    }
+    .banner-content h2 {
+        font-size: 33px;
+        margin-bottom: -20px;
+    }
+    #banner {
+        height: 600px;
+        }
+    .banner-content .title {
+        left: 70px;
+        top: 56px;
+    }
+    .limit {
+        padding: 50px 0px;
+    }
+    .limit-left h2 {
+        font-size: 33px;
+    }
+    footer {
+         margin-top:0px;
+        padding: 160px 0px 50px 0px;
+        background: url(../images/footer-sape.png)69%;
+        background-size: cover;
+    }
+
+
+
+}
